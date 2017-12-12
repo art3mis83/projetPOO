@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" nextobjectid="6">
+ <tileset firstgid="1" name="grass" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="tuiles/grass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="19" name="mountains" tilewidth="32" tileheight="32" tilecount="108" columns="12">
+  <image source="tuiles/mountains.png" width="384" height="288"/>
+ </tileset>
+ <tileset firstgid="127" name="watergrass" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="tuiles/watergrass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="145" name="water" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="tuiles/water.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="163" name="hole" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="tuiles/hole.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="181" name="holek" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="tuiles/holek.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="199" name="holemid" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="tuiles/holemid.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="217" name="waterfall" tilewidth="32" tileheight="32" tilecount="15" columns="3">
+  <image source="tuiles/waterfall.png" width="96" height="160"/>
+ </tileset>
+ <tileset firstgid="232" name="dirt" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="tuiles/dirt.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="250" name="grassalt" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="tuiles/grassalt.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="268" name="trunk" tilewidth="32" tileheight="32" tilecount="18" columns="6">
+  <image source="tuiles/trunk.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="286" name="treetop" tilewidth="32" tileheight="32" tilecount="42" columns="6">
+  <image source="tuiles/treetop.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="328" name="chests" tilewidth="32" tileheight="32" tilecount="6" columns="2">
+  <image source="tuiles/chests.png" width="64" height="96"/>
+ </tileset>
+ <tileset firstgid="334" name="bridges" tilewidth="32" tileheight="32" tilecount="42" columns="6">
+  <image source="tuiles/bridges.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="376" source="tuiles/logic.tsx"/>
+ <layer name="background" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3bTU7DMBBA4ey7aXIHxJoDcDaKBAho+TkiZ+AEtFItzGA7Y2dSu81bfAJCK0he7TgprLquWxm7qsh6Xy4BPdpCDxu94jHDjD2+hd77fIk9Sjv14jEWLSR6lGO+aovlMfTHz5J7rBvsIb8XalT7uJ2K5jzu3ERcG/Twf48l98hxm5DbPjQ+3NphCT3kOJBrJ81zUj3GGsmfxXzVFnr8vkY114dzSM1XY9cltY+dtSnrKulx72ki2WOp692U0LgJbXveexG+lNsceuTz5xd/fIV6aBpoesjfwa2pax+LlqV6aGl7QN/jI3CcPwt6MC/Z9NAKdeM8oTe2FrOcr+gxHT3aQg8budflsceHerzTw0zOPfdYD8ZHvT70sOevoYYu7/4WPeyOvQV6tKWkh7xur70PLco9jzvbvd3e/fHYbo5f78T2lNr7foncOHmNbKfHOMtzyZQe8jnQG7supEcb/B7+mpke4+Q8VXouT/WQ20P32ekxH7/HoXcvtjM+bGnfB5HHdtv9Xf+GvDWwf+fg8BrXzmWxHtJdA/t1rjT/o5PqYX1vBnqp8RHrarGOWJohcTy1PZA2x9/slsxXzGfzNUqNj8H7GTQ4Dear+ZT8zfoDPYr1kc+dKe/50aOcm8tlE9dj041fW2uvtQfvI+eQsNx756hDs3at9X9uS2QxPugVN8daad39HzOcF3ROtVZiTOjkrpF4X6IOXs+Xh3vmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgBT9DlDUeQJwAAA==
+  </data>
+ </layer>
+ <layer name="Calque 2" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2aS2/UMBSFHUoLUinvx7SAYFEeEixahASLApVgQVnBvgjEqjyWI1gi8Tt5P38EC7jRxOqNJ+MmM27jeL5POqo14zhujnJ8E89CZsxh0SHRQoD2sjGmL+qJFgstmTJfRF8LfXO+65vR6DHdsS+ILnqO7Qon5BqeFB3PwrSXi3GtL5dEl51zVvlR8kHGyZT2Zdtjavpq7FT8WJT/dUnUy8K07TVbET0WPRHdcM75UfSp0OeKOc3IOPuVZrPhMVcL2bFT8cPmTCisH2uiTdFT0V2nz9D94dwP/0y1H3rMO4Xs2Kn4YXMmFNaPh6It0UvRI6eP64d7P7iyfugxNwrZsVPxw+aMj41sWzth1w0frh9zMu4Bjw7WOG8qfuxGXvWN3xN3/bhqBmuBuzZc0Qc5mabX+ZxU/NitvPLh3h83zWAtcNeGZ+qYmYo5ziboR528asLKDt/n943rx7oZrAV6bci9eK6OmxY/xskr/fznsuY5LvdqtUJuPfxK9Fr0Rn02LX6Mk1f6+c/F50deH9m66F2hvO3Ww2+L7+6pz6bFj3Hyqlf0rzpOX3OfrB8PzHA9bNFrkeuHroNzUvEjdH1Vh3n1d97Tr8qPv6ZcB9s6LhU/QtdXdfgu+lHop6dflR+zI+Z6TXQ9xORaJnR9VYdfot+F/nj6NfHjluh2iMm1TBt5VRefH/YZ0uq+GaxFXaeNvKqLzw/7DOmq67SRV3XRfsxl5XdZ66a6bus6vrzyPfftBb53L+4eVyr48sr33LcXTKMfvrzS+35tMI1+dKW+cknVj67UVxb7PJ6qH12przT6dyWpQV7FRdfyypKqH7Hn1ah9+FT9iDmvRu0nVu0ppkLMeZXvNVa9o9K/g0uNvc6rDw36TqMfbeXV+xp9fHu/+R7vEZn3UdGxrNzuMjHn1U6cknmfFp3Jyu0u0zSv2n7nqzkrczgnOp+V212m6bVt+51v6jS9tm2/800drm1cxLIWwADWgrggr+KCvIoL8iouyKu4CJ1Xm3g7EaHz6gV+TETovMKPyQidV1v4MRHUV3FBfQUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATfgPtDGZqkCcAAA=
+  </data>
+ </layer>
+ <layer name="Calque 5" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YIQ6AMAwF0E0jAAEI4P7XpALBEhSCLfBe8pPqip+mKQEAAAAAd7ozAPCmPqc0RMZcztQxxe7nyJLLmTrW2P0W2XM5U0d/7v7aUfoKaNG1r+66CwCAZ9xU/Jk/blv8cdvijwsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfMkBNW6xFkCcAAA=
+  </data>
+ </layer>
+ <layer name="avant plan" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3YSU7DQBAFUHwRQExiDMMCWAD3vwIz3IRaZJOFI8UxcVXnPamkXliJ5VZ9Vfes29m5jrqKmo2wZj0H8Q0Pfcc0TmMvzuxHGnImF3mVi7zKRV7lMiSvduP5vah9+zi6IXl1FM8fR53Yj9ENyavzeP4i6nLgfrxGvc3rfdhPNGuK+eo76mdev5v96/SmmK8+oj7n9bXZv05vivlKf/RzHsyl8nnwJt77NuquW1xXVvk8eB/v/RD12C2uK1uWV9nPfU/xXs9RL93iurJleZX93NdifyzLq3XPff+txf6oPF+12B+V56sW+8N8lUvlvGqxPyrnVYv9UTmvWuyPynnVYn9UzqsW+6NyXrXYHxXyqu8et8X+qJBXfX3QYn+smldT3Pn29UGL/bFqXmW/861u1bzKfudbXeX5qkUV5qttUmG+2ibyKhd5lYu8ykVe5SKvcpFXucirXORVLvIqF3kFAAAAAAAAAAAAAAAAAAAAAAAAAAAwjj/YCI2dQJwAAA==
+  </data>
+ </layer>
+ <layer name="cime" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TsQkAIBRDwe9G6v7DaWsRa8E7CGSBVwUAAAAAAMAreqsae7OdH9AH3OgDMn1Apg/I9AGZPgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPjFAiuPzs1AnAAA
+  </data>
+ </layer>
+ <layer name="logic" width="100" height="100">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3Vuw5FQBSGUd5aIxQkHvvQTeESTHL+yFrJbmhkPpum4cu69t9PQEmPLHpk0SOLHln0yKJHlq3H2eyZ1ut9cW/WtJqrHnszOv/Xjt71Wj22fbEn7/Xt/VkOzn3QI4oedU0PdqUc36u6/Kez6JFFDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA7/sB+dCLjkCcAAA=
+  </data>
+ </layer>
+ <objectgroup name="Calque d'objets 1" width="80" height="112">
+  <object id="4" name="stair" type="stair" x="1200" y="218" width="80" height="112"/>
+ </objectgroup>
+</map>
